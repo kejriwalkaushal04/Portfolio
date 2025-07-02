@@ -32,7 +32,7 @@ function Navbar(prop) {
           <li><Link to="/Portfolio/Resume" className="hover:text-blue-400" target="blank">Resume</Link></li>
           <li><Link to="/Portfolio/Projects" className="hover:text-blue-400">Projects</Link></li>
           <li><Link to="/Portfolio/Certifications" className="hover:text-blue-400">Certifications</Link></li>
-          <li><Link to="/Portfolio/Contact" className="hover:text-blue-400 ">Contact</Link></li>
+          <li><Link to="/Portfolio/#/Contact" className="hover:text-blue-400 ">Contact</Link></li>
           <li><img src={mode} alt="toggle-button" className="flex align-middle size-7 " onClick={update} /></li>
         </ul>
 
@@ -44,7 +44,7 @@ function Navbar(prop) {
           <li><Link to="#Resume" className=" list-none w-full text-center p-4 hover:text-blue-400 transition-all cursor-pointer" target="blank">Resume</Link></li>
           <li><Link to="/Portfolio/Projects" className=" list-none w-full text-center p-4 hover:text-blue-400 transition-all cursor-pointer" target="blank">Projects</Link></li>
           <li><Link to="/Portfolio/Certifications" className=" list-none w-full text-center p-4 hover:text-blue-400 transition-all cursor-pointer" target="blank">Certifications</Link></li>
-          <li><Link to="/Portfolio/Contact" className=" list-none w-full text-center p-4 hover:text-blue-400 transition-all cursor-pointer" target="blank">Contact</Link></li>
+          <li><Link to="/Portfolio/#/Contact" className=" list-none w-full text-center p-4 hover:text-blue-400 transition-all cursor-pointer" target="blank">Contact</Link></li>
           <li><img src={mode} alt="toggle-button" className="list-none size-7 cursor-pointer" onClick={update} /></li>
 
         </ul>
