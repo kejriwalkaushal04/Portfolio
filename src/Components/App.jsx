@@ -89,7 +89,7 @@ function App() {
           element={<CertificationsPage nav={nav} setnav={setnav} bg={bg} setbg={setbg} tx={tx} settx={settx} />}
         />
         <Route
-          path="/Portfolio/Contact"
+          path="/Portfolio/#/Contact"
           element={<ContactPage nav={nav} setnav={setnav} bg={bg} setbg={setbg} tx={tx} settx={settx} />}
         />
       </>
